@@ -1,0 +1,37 @@
+@media all and (max-width: 64.7em) {
+  html {
+    font-size: 50%;
+  }
+
+  /* Header */
+  .header {
+    padding: 1.6rem 2rem;
+
+    & img {
+      width: 7.73vw;
+    }
+  }
+
+  /* Free Content */
+  .freeContent__image {
+    max-width: 41vw;
+  }
+
+  .freeContent__container {
+    margin: 0 8.6rem;
+  }
+
+  /* Footer */
+  .footer__container {
+    gap: 3.77vw;
+    justify-content: space-between;
+
+    & .footer__logo {
+      width: 13.9vw;
+    }
+
+    & .footer__column {
+      width: 39vw;
+    }
+  }
+}

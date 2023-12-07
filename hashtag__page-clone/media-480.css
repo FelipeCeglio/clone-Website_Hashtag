@@ -1,0 +1,133 @@
+@media all and (max-width: 30em) {
+  /* Free Content */
+  .freeContent__container {
+    & .freeContent__image {
+      width: 100%;
+    }
+
+    & .freeContent__container--class {
+      flex-flow: column;
+      align-self: center;
+
+      & .freeContent__logo-circle {
+        width: 6rem;
+        height: 6rem;
+        padding: 1.28rem;
+      }
+
+      & .freeContent--link:link,
+      & .freeContent--link:visited {
+        padding: 0.42rem 4.88rem;
+      }
+    }
+  }
+
+  /* Declarations */
+  .declarations__container {
+    margin: 0rem 5.6rem;
+
+    & .declations--title {
+      flex-flow: column;
+      max-width: none;
+    }
+
+    & .declarations__carousel--image {
+      & .declarations--arrow {
+        width: 5rem;
+      }
+
+      & .declarations__container--images {
+        & .declarations__carousel--image {
+          min-width: 100%;
+        }
+      }
+    }
+  }
+
+  /* Media */
+  & .media__container {
+    flex-flow: row wrap;
+    justify-content: center;
+
+    & .media--title {
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+
+    & .media--link {
+      & a {
+        height: 3.86rem;
+      }
+    }
+  }
+
+  /* Blog */
+  .sectionBlog {
+    padding-top: 7.63rem;
+
+    & .blog__container {
+      padding: 2.5rem;
+      padding-top: 7.63rem;
+
+      & .blog--h2 {
+        width: 78.125vw;
+        text-align: center;
+      }
+    }
+  }
+
+  /* Help */
+  .help__box--orange,
+  .help__box--grey {
+    padding: 4.88rem 2rem;
+
+    & .help--h2 {
+      text-align: center;
+    }
+  }
+
+  /* Miniclass */
+  .miniclass__container {
+    & h2 {
+      text-align: center;
+    }
+
+    & .miniclass__form {
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+      max-width: 3.5rem;
+      align-self: center;
+      width: 100%;
+    }
+  }
+
+  /* Footer */
+  .footer__container {
+    grid-template-columns: 1fr;
+    max-width: 40rem;
+    gap: 4rem;
+
+    & .footer__logo {
+      grid-row: 1;
+      width: 14rem;
+    }
+
+    & .footer__column {
+      grid-row: 2;
+      align-items: center;
+
+      & .footer__subsection,
+      & .footer__onlineclass,
+      & .footer__assistent,
+      & .footer__div--iconNlink {
+        align-items: center;
+        text-align: center;
+      }
+    }
+
+    & .footer__container--copyright {
+      grid-column: auto;
+      grid-row: 4;
+    }
+  }
+}
